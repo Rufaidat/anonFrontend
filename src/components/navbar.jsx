@@ -40,7 +40,7 @@ const Navbar = () => {
             <IconSvgComponent />
             <CloseIcon onClick={handleClick} />
           </div>
-          <div className="absolute right-0 p-6 space-y-4 bg-gradient-to-r from-purple-200 to-purple-100 mt-5 w-60 min-w-[70vw] text-white z-10 text-center rounded">
+          <div className="absolute right-0 p-6 pt-10 pb-10 space-y-8 bg-gradient-to-r from-purple-200 to-purple-100 mt-5  w-[70vw] text-white z-10 text-center rounded">
             {" "}
             <Link
               className=" block text-lg"
@@ -100,7 +100,7 @@ const Navbar = () => {
     }
   };
   return (
-    <div className=" block text-lg">
+    <div className=" block text-lg ">
       <Icon />
     </div>
   );

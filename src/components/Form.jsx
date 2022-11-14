@@ -91,7 +91,7 @@ const Form = () => {
       <Error />
       <div className="flex flex-col items-center justify-center mt-[7vh] text-white ">
         <div
-          className=" card w-[80vw] h-[70vh] bg-purple-100 drop-shadow shadow-md shadow-purple-200 rounded"
+          className=" card w-[80vw] max-w-lg h-[70vh] bg-purple-100 drop-shadow shadow-md shadow-purple-200 rounded"
           style={{ perspective: "1000px" }}
         >
           <div
